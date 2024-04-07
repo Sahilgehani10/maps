@@ -5,6 +5,7 @@ import MyMap from "./pages/MyMap.jsx";
 import Landing from "./pages/Landing.jsx";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
+import Weather from "./weather/Weather.jsx";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Route path="/maps" element={<Maps />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/Login" element={<Login />} />
+      <Route path="/weather" element={<Weather />}/>
     </Routes>
   );
 };

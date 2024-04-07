@@ -7,7 +7,7 @@ export default function Login(){
     const [email,SetEmail]=useState('');
     const [password,SetPassword]=useState('');
     const [redirect,SetRedirect]=useState(false)
-    const{setUser}=useContext(UserContext)
+    const [user, setUser] = useState(null); 
     async function handleLoginSubmit(ev){
         ev.preventDefault();
         try{
