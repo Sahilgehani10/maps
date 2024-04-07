@@ -14,9 +14,11 @@
     "axios": "^1.5.0",
     "dotenv": "^16.4.4",
     "framer-motion": "^10.16.4",
+    "jsm": "^0.0.1",
     "leaflet": "^1.9.4",
     "leaflet-control-geocoder": "^2.4.0",
     "leaflet-routing-machine": "^3.2.12",
+    "lucide-react": "^0.358.0",
     "mapbox-gl": "^3.1.2",
     "mapbox-gl-leaflet": "^0.0.16",
     "react": "^18.2.0",
@@ -30,6 +32,8 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.2",
     "tailwind-scrollbar-hide": "^1.1.7",
+    "three": "^0.162.0",
+    "three-js": "^79.0.0",
     "thunk": "^0.0.1"
   },
   "devDependencies": {
