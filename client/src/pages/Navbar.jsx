@@ -5,7 +5,7 @@ const Navbar = () => {
     const menuItems = [
         {
           name: 'Home',
-          href: '',
+          href: '/',
         },
         {
           name: 'Reviews',
@@ -13,7 +13,7 @@ const Navbar = () => {
         },
         {
           name: 'Maps',
-          href: 'maps',
+          href: 'mapbox',
         },
         {
           name: 'Weather',

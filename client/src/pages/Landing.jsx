@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react'
 import { CheckCircle, ChevronDown, ChevronUp, Menu, Star, X } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
@@ -30,7 +30,7 @@ const Landing=()=> {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
-
+   
   return (
     <div className="w-full">
       <Navbar />
@@ -389,17 +389,21 @@ const Landing=()=> {
           <div className="mt-10 w-full md:w-2/3 lg:mt-0 lg:w-1/2">
             <form className="flex lg:justify-center">
               <div className="flex w-full max-w-md flex-col space-y-4">
+                <form action="" >
                 <input
                   className="flex h-10 w-full rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                   type="email"
                   placeholder="Email"
+                  
                 ></input>
+                
                 <button
                   type="button"
                   className="w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   Subscribe
                 </button>
+                </form>
               </div>
             </form>
             <p className="mt-2 lg:text-center">

@@ -7,6 +7,7 @@ export default function Login(){
     const [email,SetEmail]=useState('');
     const [password,SetPassword]=useState('');
     const [redirect,SetRedirect]=useState(false)
+    const [loggedin,SetLoggedIn]=useState()
     const [user, setUser] = useState(null); 
     async function handleLoginSubmit(ev){
         ev.preventDefault();
@@ -15,6 +16,7 @@ export default function Login(){
             setUser(data)
             alert('login succesful')
             SetRedirect(true);
+            SetLoggedIn(true);
         }
         catch(e){
             alert(e)                            
@@ -24,7 +26,7 @@ export default function Login(){
     }
     if(redirect)
         {
-            return<Navigate to={'/maps'} />
+            return<Navigate to={'/mapbox'} />
         }
     return (
         <div className="mt-4 grow flex items-center justify-center">
