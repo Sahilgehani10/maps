@@ -26,7 +26,7 @@ export default function Login(){
     }
     if(redirect)
         {
-            return<Navigate to={'/mapbox'} />
+            return<Navigate to={'/'} />
         }
     return (
         <div className="mt-4 grow flex items-center justify-center">

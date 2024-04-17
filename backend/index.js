@@ -21,7 +21,7 @@ app.use(cookieParser())
 app.use(cors())
 mongoose.connect(process.env.MONGOURL)
 app.get('/test',(req,res)=>{
-    res.json('test ok');
+    res.json('test ok'); 
 });
 app.post('/signup',async (req,res)=>{
     const{name,email,password}=req.body;

@@ -419,7 +419,7 @@ const Landing=()=> {
       <div className="mx-auto mt-12 max-w-7xl">
         <footer className="px-4 py-10">
           <div className="flex flex-col md:flex-row md:items-center">
-            <span>
+            {/* <span>
               <svg
                 width="40"
                 height="46"
@@ -432,7 +432,7 @@ const Landing=()=> {
                   fill="black"
                 />
               </svg>
-            </span>
+            </span> */}
             <div className="mt-4 grow md:ml-12 md:mt-0">
               <p className="text-base font-semibold text-gray-700">
                
