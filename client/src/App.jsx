@@ -9,7 +9,7 @@ import Weather from "./weather/Weather.jsx";
 import Test from "./pages/Test.jsx";
 import Home from "./pages/Home.jsx";
 import HotelSearch from "./pages/HotelSearch.jsx";
-
+import ExpenseTracker from "./pages/expense-tracker/expense.jsx";
 
 const App = () => {
   return (
@@ -22,6 +22,7 @@ const App = () => {
       <Route path="/test" element={<Test />} />
       <Route path="/mapbox" element={<MyMap />} />
       <Route path="/" element={<Home />} />
+      <Route path="/expense" element={<ExpenseTracker />} />
     </Routes>
   );
 };

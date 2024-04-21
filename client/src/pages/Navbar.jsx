@@ -26,6 +26,14 @@ const Navbar = () => {
       name: "Weather",
       href: "weather",
     },
+    {
+      name: "Expense tracker",
+      href: "expense",
+    },
+    {
+      name: "To-do list",
+      href: "todo",
+    },
   ];
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -50,7 +58,7 @@ const Navbar = () => {
                 />
               </svg>
             </span> */}
-          <span className="font-bold">Journify</span>
+          <span className="font-bold text-black">Journify</span>
         </div>
         <div className="hidden lg:block">
           <ul className="inline-flex space-x-8">
