@@ -22,7 +22,6 @@ const App = () => {
       <Route path="/test" element={<Test />} />
       <Route path="/mapbox" element={<MyMap />} />
       <Route path="/" element={<Home />} />
-      <Route path="/hotel" element={<HotelSearch />}/>
     </Routes>
   );
 };
